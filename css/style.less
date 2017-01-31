@@ -1,0 +1,204 @@
+//@blue: #568ebb;
+
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: "Segoe UI";
+    }
+h1, h2, h3, h4, p, a, ul, li, a, strong, p, span, tr, th {
+    font-size: 16px;
+    font-weight: normal;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #fdfeff;
+    }
+.wrapper {
+    max-width: 1200px;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    }
+#header {
+    background: #5396f9;
+    padding: 10px 0;
+    
+    .photo {
+        float: left;
+        width: 30%;
+        text-align: right;
+        
+    }
+    .text {
+        float: right;
+        width: 67%;
+        padding: 5px 15px;
+        h1 {
+            font-size: 25px;
+            padding-top: 45px;
+        }
+        h2 {
+            font-size: 18px;
+            padding-bottom: 15px;
+        }
+    }
+}
+#content {
+    background: #354050;
+    .left-part {
+        float: left;
+        width: 30%;
+        .part {
+            overflow: auto;
+            margin: 25px;
+            .title {
+                overflow: auto;
+                margin: 8px;
+                .pic {
+                    float: left;
+                    width: 30%;
+                    text-align: center;
+                }
+                h1 {
+                font-size: 25px;
+                    float: left;
+                    width: 70%;
+                    padding-top: 10px;
+                }
+            }
+            .skills {
+                .text {
+                    float: left;
+                    width: 30%;
+                    h3 {
+                        margin: 5.5px;
+                    }
+                }
+                .progress-bar {
+                    float: right;
+                    width: 70%;
+                    position: relative;
+                    width: 200px;
+                    height: 15px;
+                    background: #ccc;
+                    margin: 6px;
+                    .active-bar {
+                        background: #568ebb;
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        height: 100%;
+                        left: 0;
+                        width: 90%;
+                    }
+                    .active-bar2 {
+                        background: #568ebb;
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        height: 100%;
+                        left: 0;
+                        width: 80%;
+                    }
+                    .bar-progress {
+                        color: #000;
+                        display: inline-block;
+                        position: absolute;
+                        top: -4px;
+                        right: 55px;
+                    }
+                }
+            }
+            .list {
+                margin: 0 20px;
+                li {
+                    margin: 8px;
+                    font-size: 18px;
+                }
+            }
+            .referenced {
+                margin: 10px 40px 10px;
+                overflow: auto;
+                .pic {
+                    float: left;
+                    width: 30%;
+                    text-align: center;
+                }
+                h1 {
+                    font-size: 20px;
+                    float: left;
+                    width: 70%;
+                }
+            }
+            .list2 {
+                    margin: 10px 10px 10px 70px;
+                li {
+                    margin: 3px;
+                    font-size: 17px;
+                }
+                }
+        }
+    }
+        
+    .right-part {
+        float: right;
+        width: 70%;
+        overflow: auto;
+        box-sizing: border-box;
+        border-left: 15px solid #5396f9;
+        padding-bottom: 60px;
+        .part {
+            overflow: auto;
+            margin: 25px;
+            .title {
+                overflow: auto;
+                margin: 8px;
+                .pic {
+                    float: left;
+                    width: 15%;
+                    text-align: center;
+                }
+                h1 {
+                    font-size: 25px;
+                    float: left;
+                    width: 85%;
+                    padding-top: 10px;
+                }
+            }
+            .blocks {
+                .block {
+                    margin: 20px;
+                    h2 {
+                        font-weight: 500;
+                        font-size: 18px;
+                    }
+                }
+            }
+            .logo {
+                overflow: auto;
+                margin: 10px;
+                .pic {
+                    float: left;
+                    width: 15%;
+                    text-align: right;
+                    margin-right: 10px;
+                }
+                .text {
+                    float: left;
+                    width: 80%;
+                    h1 {
+                        font-size: 20px;
+                    }
+                    h2 {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
